@@ -6,9 +6,9 @@ Just a simple container for a personal project that builds Ansible and Terraform
 * `nickmaccarthy/terraform-0.11.10-ansible-runner-1.3.4:2.8.5` - Contains both Terraform 0.11.10, Ansible Runner 1.3.4 and Ansible 2.8.5.  Also inclused the hvac, certifi, boto, botocore, and boto3 pip modules
 
 ## Deployment
-* docker build -t terraform-<tf_version>-ansible-runner-<runner_version>:<ansible_version>
-* docker tag terraform-<tf_version>-ansible-runner-<runner_version> <docker_username>/terraform-<tf_version>-ansible-runner-<runner_version>:<ansible_version>
-* docker push <docker_username>/terraform-<tf_version>-ansible-runner-<runner_version>:<ansible_version>
+* `docker build -t terraform-<tf_version>-ansible-runner-<runner_version>:<ansible_version>`
+* `docker tag terraform-<tf_version>-ansible-runner-<runner_version> <docker_username>/terraform-<tf_version>-ansible-runner-<runner_version>:<ansible_version>`
+* `docker push <docker_username>/terraform-<tf_version>-ansible-runner-<runner_version>:<ansible_version>`
 
 Example:
 ```
